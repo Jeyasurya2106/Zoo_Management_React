@@ -1,0 +1,49 @@
+body{
+    margin: 10px;
+    border: 2px solid;
+    border-style: double;
+}
+.header-about{
+    align-items: center;
+}
+.reserveheading{
+    margin-left: 500px;
+    color: red;
+    text-decoration: underline;
+
+}
+.tigerreserveimg{
+    width:400px ;
+    height: 200px;
+    margin-left: 520px;
+}
+.tigerreserveimg:hover{
+    transform: scaleY(1.2);
+}
+#about-container{
+    background-image: url(C:\Users\jeyas\OneDrive\Desktop\React\custom-project\src\ZooMangaement\tigerbg.jpg);
+    background-size: 1450px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.abt{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+h4{
+    margin-left: 80px;
+    color: white;
+    margin-top: 35px;
+}
+.empty1{
+    height: 250px;
+    margin-top: 10px;
+}
+.empty2{
+    height: 150px;
+    margin-top: -150px;
+}

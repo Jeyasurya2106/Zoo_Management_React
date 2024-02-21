@@ -1,0 +1,90 @@
+
+#header-home{
+    align-items: center;
+    width: 600px;
+    height: 50px;
+    margin-left: 500px;
+    display: flex;
+    margin-top: 50px;
+}
+.meghamalai{
+    display: inline-block;
+    margin-left: 5px;
+    color: black;
+}
+
+@keyframes rotateLogo {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #zooheader {
+    width: 400px;
+    height: 90px;
+    margin-left: -20px;
+    border-radius: 50%;
+    animation: rotateLogo 2s ease-in-out forwards; 
+  }
+  
+ 
+.navbar{
+    display: flex;
+    background-color: rgb(134, 78, 9);
+    height: 25px;
+    margin-top: 50px;
+}
+
+#megamalailogo {
+    display: inline-block;
+    height: 120px;
+    width: 100px;
+    margin-left: -28px;
+    animation: rotateLogo 2s ease-in-out forwards;
+}
+
+@keyframes rotateLogo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 980px;
+    color: white;
+    margin-top: -0.2px;
+}
+.links{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.links:hover{
+   text-decoration: underline;
+}
+.bgimage{
+    display: block;
+    margin-left: -800px;
+    margin-top: 25px;
+}
+.megamalaibg{
+    width: 1200px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: -450px;
+    scale: (1,2);
+}
+.routers{
+    text-decoration: none;
+    
+    color: white;
+}
+.routers :hover{
+    color: aquamarine;
+}

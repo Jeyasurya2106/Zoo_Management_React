@@ -1,0 +1,49 @@
+body{
+    margin: 25px;
+}
+#header-contact{
+    background-image: url(megamalaibg.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.mg-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact{
+    background-color: rgb(227, 158, 9);
+    margin-left: 600px;
+    width: 180px;
+    font-style: italic;
+}
+.mt{
+    margin-top: -80px;
+    margin-left: 150px;
+}
+.hd{
+    margin-left: 200px;
+}
+.hd-cont{
+    margin-left: 250px;
+    color: rgb(45, 40, 40);
+}
+iframe{
+    margin-left: 280px;
+}
+
+.tnq{
+    margin-left: 800px;
+    color: rgb(23, 30, 36);
+    margin-top: -40px;
+}
+.tnq2{
+    margin-left: 850px;
+    color: rgb(62, 62, 59);
+    margin-top: -30px;
+}

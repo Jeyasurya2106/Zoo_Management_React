@@ -1,0 +1,93 @@
+
+.head-div{
+    background-image: url(zoo\ headerimage.jpg);
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-left: 600px;
+    margin-top: -20px;
+}
+.content-container{
+    width: 1000px;
+    height: 800px;
+}
+.Nilgiri{
+    background-image: url(nilgirithar.webp);
+    width: 600px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Nilgiricontent{
+    display: block;
+    visibility: hidden;
+    width: 600px;
+    height: 350px;
+}
+.cheetahcontent{
+    display: block;
+    visibility: hidden;
+    width: 600px;
+    height: 400px; 
+}
+.nilgiri-state{
+   margin-left:180px;
+   margin-top: -60px;
+   text-decoration: underline;
+}
+.nilgiri-para{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.cheetah-para{
+    margin-right: 10px;
+    margin-top: 55px;
+}
+.cheetah-fastest{
+    margin-top: -75px;
+    margin-left: 160px;
+    text-decoration: underline;
+}
+.Nilgiri:hover  .Nilgiricontent ,.cheetah:hover .cheetahcontent,.elephant:hover .elephantcontent{
+    visibility: visible;
+    background-color: black;
+    color: bisque;
+    margin-left: 800px;
+}
+.nilgiri-logo,.cheetah-logo,.elephant-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.cheetah{
+    background-image: url(cheetahbg.jpg);
+    width: 600px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.elephant{
+    background-image: url(elephantbg.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.elephantcontent{
+    display: block;
+    visibility: hidden;
+    width: 600px;
+    height: 350px;
+}
+.elephant-largest{
+    margin-top: -75px;
+    margin-left: 160px;
+    text-decoration: underline;
+}
+.elephant-para{
+    margin-right: 10px;
+    margin-top: 45px;
+}
+
